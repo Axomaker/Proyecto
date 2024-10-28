@@ -1,0 +1,68 @@
+<!DOCTYPE html>  
+    <html lang="es"> 
+      <head>
+        <meta charset="UTF-8"> 
+        <title>Puñetazo de virus</title>
+        <link rel="stylesheet" href="soporte.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+
+
+      <div>
+        <nav >   	
+             <ul class="menu">
+                <a href="paginaprincipal.html">                    
+                  <img class="logo" src="steelwall.png" alt="Escudo basado en la ciberseguridad.">
+                </a>
+                 <li><a href="paginaprincipal.html">Inicio</a></li>
+                  <li><a href="pagina_de_software.html">Software</a></li>
+                 <li><a href="pagina_de_sobre_nosotros.html">Sobre nosotros</a></li>
+                 <li><a href="pagina_soporte.html">Soporte</a></li> 
+             </ul>
+       </nav>
+       </div>
+
+        <div class="titulos">
+        <h1 class="titulo1"> Bienvenidos al soporte de <div class="tit">Steelwall</div> </h1>
+        <h2 class="titulo3"> Aqui encontraras las soluciones a tus problemas</h2>
+        </div>
+        
+      <div>
+       <img class="gif1" src="/Videosporte1.gif" alt="Gif representativo">
+      </div>  
+
+      
+        <h2 class="titulo2"> Preguntas frecuentes</h2>
+    
+        
+
+        <button class="dudauno">No funciona la pagina. (No carga, Va muy lento, No funciona)</button>
+        <div class="dudaunodentro">
+          <p>Recarga la pagina. Esto puede suceder porque tenga mala señal o la pagina no funciona bien.</p>
+        </div>
+        
+        <button class="dudauno">Otra ptegunta</button>
+        <div class="dudaunodentro">
+          <p>Responde.</p>
+        </div>
+
+         <script>
+            var coll = document.getElementsByClassName("dudauno");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dudaunodentro = this.nextElementSibling;
+                if (dudaunodentro.style.display === "block") {
+                  dudaunodentro.style.display = "none";
+                } else {
+                  dudaunodentro.style.display = "block";
+                }
+              });
+            }
+            </script>
+
+    </body>
+</html>
