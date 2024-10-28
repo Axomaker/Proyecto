@@ -106,29 +106,31 @@ button {
 
 .link {
     font-size: 75px; 
-    padding-left: 0; 
+    padding-left: 50%; 
     margin-left: 25px;
 }
 
 .Field1 {
     padding-top: 100px;
-    padding-left: 760px;
+    padding-left: 45%;
 }
 
 .Field2 {
     padding-top: 25px;
-    padding-left: 760px;
+    padding-left: 45%;
 }
 
 .Iniciar_Session1{
     background-color: white;
     border-radius: 20px;
+    padding: 12px;
     
 }
 
 .Iniciar_Session1Boton {
-    padding-left: 810px;
+    padding-left: 46.5%;
     padding-top: 20px;
+    
 }
 
 img {

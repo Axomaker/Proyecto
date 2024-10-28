@@ -138,3 +138,9 @@ button {
   .gif1 {
     width: 240px;
   }
+
+  .gif1p {
+    font-style: italic;
+    text-align: left;
+    font-size: 170%;
+  }
