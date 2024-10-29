@@ -136,3 +136,15 @@ button {
 img {
     width: 60px;
 }
+
+.Creacion_de_cuenta {
+    padding-left: 47%;
+    padding-top: 0.5%;
+    font-size: 50%;
+}
+
+.Creacion_de_cuenta a {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}

@@ -1,0 +1,111 @@
+
+body {
+    background-color: grey; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.Titulo2 {
+    color: white;  
+    font-size: 20px;
+    text-align: center;
+    margin-right:100px ;
+    margin-left: 100px ;
+    margin-top: 100px;
+}
+
+.Boton3 {
+   color: white;  
+   font-size: 20px;
+   background-color: rgb(184, 184, 184);
+   padding: 30px;
+   margin-left: 775px;
+   margin-top: 600px;
+}
+
+.CuerpoSoftware {
+    color: white;  
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.nav-container {
+    background-color: transparent;
+}
+
+.menu {
+    display: flex; 
+    margin: 0; 
+    list-style-type: none; 
+}
+
+.menu li {
+    margin: 10px; 
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white; 
+    outline: none; 
+}
+
+
+button {
+    border: none; 
+    background: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
+
+
+.mi-imagen {
+    max-width: 20px; 
+    height: auto; 
+}
+
+
+.titulo-container {
+    padding-top: 600px; 
+    margin-left: 20px;
+}
+
+.uno {
+    margin-top: 50px;
+}
+
+.Titulo {
+    color: white; 
+    font-size: 80px;
+    padding-bottom: 100px; 
+}
+
+
+.container {
+    background-color: white;
+    padding: 0; 
+    padding: 100px;  
+    padding-top: 100px; 
+}
+
+
+.subtitle {
+    font-size: 75px; 
+    padding-left: 0; 
+    margin-left: 25px; 
+    margin-bottom: 300px;
+}
+
+
+.container3 {
+    background-color: rgb(150, 150, 150);
+    padding: 0; 
+    padding: 100px; 
+    padding-top: 100px; 
+    
+}
+
+
+img {
+    width: 60px;
+}
+
