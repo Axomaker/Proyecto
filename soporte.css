@@ -1,12 +1,13 @@
 
 body {
-    background-color: #808080; 
+    background-color: #808080; /*f5f5dc*/
     font-family: 'Montserrat', sans-serif; 
 }
 
-
-.nav-container {
-    background-color: transparent;
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
 }
 
 .menu {
@@ -16,13 +17,12 @@ body {
 }
 
 .menu li {
-    margin: 10px; 
+    margin: 1%; 
 }
 
 .menu a {
     text-decoration: none; 
     color: white; 
-    outline: none; 
 }
 
 
@@ -87,7 +87,7 @@ button {
 }
 
 
-/*Desplegables*/
+/*Desplegables f5f5dc*/
 
 
 .dudauno {
@@ -99,7 +99,7 @@ button {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 19px;
   }
   
   .active, .dudauno:hover {
@@ -123,8 +123,8 @@ button {
   }
 
   .titulo2 {
-    padding: 0% 0% 3% 0%;
     font-size: 170%;
+    text-align: center;
   }
 
   .tit {
@@ -135,11 +135,54 @@ button {
     width: 60px;
   }
 
-  .gif1 {
-    width: 240px;
+  .gifp {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 70px;
   }
 
-  .gif1p {
+  .gif1 {
+    width: 250px;
+    float: left;
+  }
+
+  .gif2 {
+    width: 250px;
+    caption-side: top;
+  }
+
+  .gif3 {
+    width: 250px;
+    float: right;
+  }
+
+
+  .piedepaguina {
+    font-size: 11px;
+  }
+  .pliniea {
+    height: 2px;
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .piedepaguinatxt {
+    margin-left: 2%;
+  }
+  .Stltxt {
+    color: #f5f5dc;
     font-style: italic;
-    text-align: left;
+    font-family: sans-serif;
+  }
+  .contac {
+    color: beige;
+    font-style: italic;
+  }
+  .sliniea {
+    height: 2px;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
   }

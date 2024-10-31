@@ -4,6 +4,27 @@ body {
     font-family: 'Montserrat', sans-serif; 
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu {
+    display: flex; 
+    margin: 0; 
+    list-style-type: none; 
+}
+
+.menu li {
+    margin: 1%; 
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white; 
+}
+
 .Titulo2 {
     color: white;  
     font-size: 20px;
@@ -29,25 +50,8 @@ body {
     margin-top: 200px;
 }
 
-.nav-container {
-    background-color: transparent;
-}
 
-.menu {
-    display: flex; 
-    margin: 0; 
-    list-style-type: none; 
-}
 
-.menu li {
-    margin: 10px; 
-}
-
-.menu a {
-    text-decoration: none; 
-    color: white; 
-    outline: none; 
-}
 
 
 button {

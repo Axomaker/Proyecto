@@ -1,6 +1,6 @@
 body {
-    background-color: grey; 
-    font-family: 'Montserrat', sans-serif; 
+    background-color: white; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -9,11 +9,11 @@ ul {
     padding: 0;
 }
 
-
 .menu {
     display: flex; 
     margin: 0; 
-    list-style-type: none; 
+    list-style-type: none;
+    font-weight: bold;
 }
 
 .menu li {
@@ -22,20 +22,19 @@ ul {
 
 .menu a {
     text-decoration: none; 
-    color: white; 
-}
-
-.vision{
-    color: white;
-    text-align: justify;
 }
 
 .v1 {
     text-align: center;
+
+}
+
+.contenido {
 }
 
 img {
     width: 60px;
 }
+
 
 
