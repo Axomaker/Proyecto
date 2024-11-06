@@ -1,6 +1,6 @@
 
 body {
-    background-color: #808080; /*f5f5dc*/
+    background-color: #ffffff; /*f5f5dc o 808080*/
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -128,7 +128,7 @@ button {
   }
 
   .tit {
-    color: lightgray;
+    color: #7e7e7e;
   }
  
   .logo {
@@ -172,13 +172,14 @@ button {
     margin-left: 2%;
   }
   .Stltxt {
-    color: #f5f5dc;
+    color: #424242;
     font-style: italic;
     font-family: sans-serif;
   }
   .contac {
-    color: beige;
+    color: #424242;
     font-style: italic;
+    font-family: sans-serif;
   }
   .sliniea {
     height: 2px;
