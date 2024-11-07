@@ -1,6 +1,6 @@
 
 body {
-    background-color: grey; 
+    background-color: white; 
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -8,21 +8,26 @@ ul {
     list-style-type: none;
     display: flex;
     padding: 0;
+    font-weight: bold;
 }
 
 .menu {
     display: flex; 
-    margin: 0; 
-    list-style-type: none; 
+    padding: 0;
+    list-style-type: none;
+    font-weight: bold;
 }
 
 .menu li {
-    margin: 1%; 
+    margin: 1%;
+    padding-top: 1%;
 }
 
 .menu a {
     text-decoration: none; 
-    color: white; 
+    font-size: 110%;
+    font-weight: 900;
+    color: #323232;
 }
 
 .Titulo2 {
@@ -78,9 +83,9 @@ button {
 }
 
 .Titulo {
-    color: white; 
+    color: #000000; 
     font-size: 80px;
-    padding-bottom: 100px; 
+    padding-bottom: 1%; 
 }
 
 
@@ -110,6 +115,28 @@ button {
 
 
 img {
-    width: 60px;
+    width: 100px;
 }
 
+
+.piedepaguina {
+    font-size: 11px;
+  }
+  .pliniea {
+    height: 2px;
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .piedepaguinatxt {
+    margin-left: 2%;
+  }
+
+  .sliniea {
+    height: 2px;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+  }

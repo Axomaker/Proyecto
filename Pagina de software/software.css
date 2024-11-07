@@ -1,6 +1,6 @@
 
 body {
-    background-color: grey; 
+    background-color: white; 
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -12,7 +12,7 @@ ul {
 
 .menu {
     display: flex; 
-    margin: 0; 
+    padding: 0; 
     list-style-type: none;
     font-weight: bold;
 }
@@ -154,3 +154,26 @@ img {
     text-decoration: none;
     text-decoration: underline;
 }
+
+
+.piedepaguina {
+    font-size: 11px;
+  }
+  .pliniea {
+    height: 2px;
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .piedepaguinatxt {
+    margin-left: 2%;
+  }
+
+  .sliniea {
+    height: 2px;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+  }

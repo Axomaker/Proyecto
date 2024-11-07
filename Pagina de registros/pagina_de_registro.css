@@ -1,3 +1,162 @@
+
 body {
-    background-color: red;
+    background-color: white; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu {
+    display: flex; 
+    margin: 0; 
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.menu li {
+    margin: 1%; 
+    padding-top: 1%;
+}
+
+.menu a {
+    text-decoration: none; 
+    font-size: 110%;
+    font-weight: 900;
+    color: #323232;
+}
+
+.Titulo2 {
+    color: black;  
+    font-size: 20px;
+    text-align: center;
+    margin-right:100px ;
+    margin-left: 100px ;
+    margin-top: 100px;
+}
+
+.Boton3 {
+   color: white;  
+   font-size: 20px;
+   background-color: rgb(184, 184, 184);
+   padding: 30px;
+   margin-left: 775px;
+   margin-top: 600px;
+}
+
+.CuerpoSoftware {
+    color: white;  
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+
+button {
+    border: none; 
+    background: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
+
+
+.mi-imagen {
+    max-width: 20px; 
+    height: auto; 
+}
+
+
+.titulo-container {
+    padding-top: 00px; 
+    margin-left: 20px;
+}
+
+.uno {
+    margin-top: 50px;
+}
+
+.Titulo {
+    color: white; 
+    font-size: 80px;
+    padding-bottom: 100px; 
+}
+
+
+.container {
+    background-color: white;
+    padding: 0; 
+    padding: 100px;  
+    padding-top: 100px; 
+}
+
+
+.subtitle {
+    font-size: 75px; 
+    padding-left: 0; 
+    margin-left: 25px; 
+    margin-bottom: 300px;
+}
+
+
+.container3 {
+    background-color: rgb(150, 150, 150);
+    padding: 0; 
+    padding: 100px; 
+    padding-top: 100px; 
+    
+}
+
+.link {
+    font-size: 75px; 
+    padding-left: 50%; 
+    margin-left: 25px;
+}
+
+.Field1 {
+    padding-top: 100px;
+    padding-left: 45%;
+}
+
+.Field2 {
+    padding-top: 25px;
+    padding-left: 45%;
+}
+
+.Field3 {
+    padding-top: 25px;
+    padding-left: 45%;
+}
+
+.Registro{
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: black;
+}
+
+.Registro_boton {
+    background-color: rgb(255, 255, 255);
+    padding-left: 46.5%;
+    padding-top: 20px;
+    
+}
+
+img {
+    width: 100px;
+}
+
+.Creacion_de_cuenta {
+    padding-left: 47%;
+    padding-top: 0.5%;
+    font-size: 50%;
+}
+
+.Creacion_de_cuenta a {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
 }

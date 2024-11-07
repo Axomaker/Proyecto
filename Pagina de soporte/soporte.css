@@ -1,6 +1,6 @@
 
 body {
-    background-color: #ffffff; /*f5f5dc o 808080*/
+    background-color: white; /*f5f5dc o 808080*/
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -12,7 +12,7 @@ ul {
 
 .menu {
   display: flex; 
-  margin: 0; 
+  padding: 0; 
   list-style-type: none;
   font-weight: bold;
 }
@@ -162,6 +162,17 @@ button {
   }
 
 
+  .Stltxt {
+    color: #424242;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+  .contac {
+    color: #424242;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+
   .piedepaguina {
     font-size: 11px;
   }
@@ -175,16 +186,7 @@ button {
   .piedepaguinatxt {
     margin-left: 2%;
   }
-  .Stltxt {
-    color: #424242;
-    font-style: italic;
-    font-family: sans-serif;
-  }
-  .contac {
-    color: #424242;
-    font-style: italic;
-    font-family: sans-serif;
-  }
+
   .sliniea {
     height: 2px;
     background-color: white;
