@@ -127,16 +127,16 @@ button {
 }
 
 .Iniciar_Session1{
-    background-color: white;
+    background-color: black;
     border-radius: 20px;
     padding: 12px;
-    
+    color: white;
 }
 
 .Iniciar_Session1Boton {
     padding-left: 46.5%;
     padding-top: 20px;
-    
+    color: white;
 }
 
 img {
@@ -156,8 +156,20 @@ img {
 }
 
 
-.piedepaguina {
+.Stltxt {
+    color: #424242;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+  .contac {
+    color: #424242;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+
+  .piedepaguina {
     font-size: 11px;
+    padding: 25% 0% 0% 0%;
   }
   .pliniea {
     height: 2px;

@@ -160,3 +160,37 @@ img {
     text-decoration: none;
     text-decoration: underline;
 }
+
+.Stltxt {
+    color: #424242;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+  .contac {
+    color: #424242;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+
+  .piedepaguina {
+    font-size: 11px;
+    padding: 21% 0% 0% 0%;
+  }
+  .pliniea {
+    height: 2px;
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .piedepaguinatxt {
+    margin-left: 2%;
+  }
+
+  .sliniea {
+    height: 2px;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+  }

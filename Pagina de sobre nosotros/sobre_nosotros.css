@@ -43,26 +43,37 @@ img {
 }
 
 
+.Stltxt {
+  color: #424242;
+  font-style: italic;
+  font-family: sans-serif;
+}
+.contac {
+  color: #424242;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
 .piedepaguina {
-    font-size: 11px;
+  font-size: 11px;
 }
 .pliniea {
-    height: 2px;
-    background-color: white;
-    margin-top: 4%;
-    margin-left: 2%;
-    margin-right: 2%;
+  height: 2px;
+  background-color: white;
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .piedepaguinatxt {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 .sliniea {
-    height: 2px;
-    background-color: white;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 1%;
+  height: 2px;
+  background-color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
 }
 
 .coin {
