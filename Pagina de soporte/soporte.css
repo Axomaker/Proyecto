@@ -138,7 +138,7 @@ button {
   .logo {
     width: 100px;
   }
-
+  
   .gifp {
     justify-content: space-between;
     align-items: center;
@@ -204,4 +204,8 @@ button {
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 1%;
+  }
+
+  .redes {
+    width: 10px;
   }
