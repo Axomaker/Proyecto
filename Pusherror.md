@@ -14,3 +14,6 @@ step 2: git status // you can see which files was modified before "commit"
 step 3: git commit -m "<comment>"
 
 step 4: git push origin main -f
+
+
+ESTO ES UNA PRUEBA PARA VER SI SE APLICAN 
