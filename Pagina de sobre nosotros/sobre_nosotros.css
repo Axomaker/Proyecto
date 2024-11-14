@@ -1,53 +1,120 @@
 body {
-    background-color: white; 
-    font-family: 'Montserrat', sans-serif;
+  background-color: white; 
+  font-family: 'Montserrat', sans-serif;
 }
 
+/* Menu */
+
 ul {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
 }
 
 .menu {
-    display: flex; 
-    padding: 0;
-    list-style-type: none;
-    font-weight: bold;
+  display: flex; 
+  padding: 0;
+  list-style-type: none;
+  font-weight: bold;
 }
 
 .menu li {
-    margin: 1%;
-    padding-top: 1%;
+  margin: 1%;
+  padding-top: 1%;
 }
 
 .menu a {
-    text-decoration: none; 
-    font-size: 110%;
-    font-weight: 900;
-    color: #323232;
+  text-decoration: none; 
+  font-size: 110%;
+  font-weight: 900;
+  color: #323232;
 }
 
 img {
-    width: 100px;
+  width: 100px;
 }
 
+/* Traductor */
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #9b9b9b;
+}
+
+.dropdown-toggle {
+  display: none;
+}
+
+.dropdown-label {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  list-style-type: none;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #9b9b9b;
+}
+
+.dropdown-toggle:checked + .dropdown-label + .dropdown-content {
+  display: block;
+}
+
+
+/* Animaciones */
+
+.g1 a {
+  transition: font-size 0.7s ease;
+}
+
+.g1 a:hover {
+  font-size: 150%;
+}
+
+/* Sobre nosotros */
 .apartados h1 {
-    text-align: center;
-    font-size: 400%;
+  text-align: center;
+  font-size: 400%;
 }
 
 .apartados h2 {
-    padding-left: 10%;
-    padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
+/*Este codigo es del pìe de pagina*/ 
 
 .Stltxt {
   color: #424242;
   font-style: italic;
   font-family: sans-serif;
 }
+
 .contac {
   color: #424242;
   font-style: italic;
@@ -57,6 +124,7 @@ img {
 .piedepaguina {
   font-size: 11px;
 }
+
 .pliniea {
   height: 2px;
   background-color: white;
@@ -64,6 +132,7 @@ img {
   margin-left: 2%;
   margin-right: 2%;
 }
+
 .piedepaguinatxt {
   margin-left: 2%;
 }
@@ -75,63 +144,12 @@ img {
   margin-right: 2%;
   margin-bottom: 1%;
 }
+  
+.svg_back {
+  transform: scaleX(-1);
+}
+  
+.redes {
+  width: 10px;
+}
 
-.coin {
-    font-size: 200px;
-    width: 0.1em;
-    height: 1em;
-    background: linear-gradient(#ffffff #141001);
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    animation: rotate_4001510 7s infinite linear;
-    transform-style: preserve-3d;
-  }
-  
-  .coin .side, .coin:before, .coin:after {
-    content: "";
-    position: absolute;
-    width: 1em;
-    height: 1em;
-    overflow: hidden;
-    border-radius: 50%;
-    right: -0.4em;
-    text-align: center;
-    line-height: 1;
-    transform: rotateY(-90deg);
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .coin .tails, .coin:after {
-    left: -0.4em;
-    transform: rotateY(90deg);
-  }
-  
-  .coin:before, .coin:after {
-    background: linear-gradient(#ffffff, #141001);
-    backface-visibility: hidden;
-    transform: rotateY(90deg);
-  }
-  
-  .coin:after {
-    transform: rotateY(-90deg);
-  }
-  
-  @keyframes rotate_4001510 {
-    100% {
-      transform: rotateY(360deg);
-    }
-  }
-  
-  .svg_back {
-    transform: scaleX(-1);
-  }
-  
-  .redes {
-    width: 10px;
-  }

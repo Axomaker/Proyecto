@@ -119,3 +119,11 @@ img {
   .redes {
     width: 10px;
   }
+
+  a {
+    transition: font-size 0.7s ease;
+  }
+  
+  a:hover {
+    font-size: 150%;
+  }

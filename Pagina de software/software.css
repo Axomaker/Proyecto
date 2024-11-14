@@ -121,6 +121,18 @@ button {
     padding-left: 45%;
 }
 
+.Primero {
+    padding-top: 50px;
+}
+
+.Field1 a {
+    padding-left: 5%;
+}
+
+.Field2 a {
+    padding-left: 4%;
+}
+
 .Field2 {
     padding-top: 25px;
     padding-left: 45%;
@@ -192,4 +204,12 @@ img {
 
   .redes {
     width: 10px;
+  }
+
+  a {
+    transition: font-size 0.7s ease;
+  }
+  
+  a:hover {
+    font-size: 150%;
   }

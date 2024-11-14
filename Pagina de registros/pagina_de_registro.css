@@ -121,14 +121,27 @@ button {
     padding-left: 45%;
 }
 
+.Field1 a {
+   padding-left: 5%;
+   padding-top: 10px; 
+}
+
 .Field2 {
     padding-top: 25px;
     padding-left: 45%;
 }
 
+.Field2 a {
+    padding-left: 3.5%;
+}
+
 .Field3 {
     padding-top: 25px;
     padding-left: 45%;
+}
+
+.Field3 a {
+    padding-left: 3.5%;
 }
 
 .Registro{
@@ -197,4 +210,12 @@ img {
 
   .redes {
     width: 10px;
+  }
+
+  a {
+    transition: font-size 0.7s ease;
+  }
+  
+  a:hover {
+    font-size: 150%;
   }
