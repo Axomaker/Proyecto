@@ -36,19 +36,17 @@ img {
 
 /* Traductor */
 
-
-
-.dropdown {
+.traductor {
   position: relative;
   display: inline-block;
   background-color: #9b9b9b;
 }
 
-.dropdown-toggle {
+.traductor1 {
   display: none;
 }
 
-.dropdown-label {
+.traductor2 {
   color: black;
   padding: 16px;
   font-size: 16px;
@@ -57,7 +55,7 @@ img {
   display: inline-block;
 }
 
-.dropdown-content {
+.traductor3 {
   display: none;
   position: absolute;
   background-color: #ffffff;
@@ -66,33 +64,33 @@ img {
   z-index: 1;
 }
 
-.dropdown-content li {
+.traductor3 li {
   list-style-type: none;
 }
 
-.dropdown-content a {
+.traductor3 a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
+.traductor3 a:hover {
   background-color: #9b9b9b;
 }
 
-.dropdown-toggle:checked + .dropdown-label + .dropdown-content {
+.traductor1:checked + .traductor2 + .traductor3 {
   display: block;
 }
 
 
 /* Animaciones */
 
-.g1 a {
+.menu li a.g1 {
   transition: font-size 0.7s ease;
 }
 
-.g1 a:hover {
+.menu li a.g1:hover {
   font-size: 150%;
 }
 
