@@ -1,3 +1,14 @@
+
+.titulo-container {
+  padding-top: 23%; 
+  margin-left: 2%;
+}
+
+.Titulo {
+  color: #000000; 
+  font-size: 80px;
+}
+
 /* Menú */
 .nav-link {
   color: #323232;
