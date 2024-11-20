@@ -1,3 +1,7 @@
+cat  =  Paginas traducidas a catalan
+
+ing  =  Paginas traducidas a ingles
+
 msql =  MySQLs
 
 pdr  =  Pagina de registros
@@ -13,7 +17,3 @@ pp   =  Pagina principal
 psn  =  Pagina sobre nosotros
 
 vsc  =  Visual Studio Code
-
-cat  =  Paginas traducidas a catalan
-
-ing  =  Paginas traducidas a ingles
