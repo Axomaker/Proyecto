@@ -1,11 +1,182 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>rellenar</h1>
-</body>
+<!DOCTYPE html>  
+    <html lang="es"> 
+      <head>
+        <meta charset="UTF-8"> 
+        <title>Steel wall</title>
+        <link rel="stylesheet" href="/Pagina de soporte/soporte.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+
+
+      <div>
+        <nav >   	
+             <ul class="menu">
+                <a href="/Pagina principal/pagina_principal.html">                    
+                  <img class="logo" src="/Imagenes/steelwall.png" alt="Escudo basado en la ciberseguridad.">
+                </a>
+                 <li><a href="/Pagina principal/pagina_principal.html">Inicio</a></li>
+                  <li><a href="/Pagina de software/pagina_de_software.html">Software</a></li>
+                 <li><a href="/Pagina de sobre nosotros/pagina_de_sobre_nosotros.html">Sobre nosotros</a></li>
+                 <li><a href="/Pagina de soporte/pagina_soporte.html">Soporte</a></li> 
+             </ul>
+       </nav>
+       </div>
+
+        <div class="titulos">
+        <h1 class="titulo1"> Bienvenidos al soporte de <div class="tit">Steelwall</div> </h1>
+        <h2 class="titulo3"> Aqui encontraras las soluciones a tus problemas</h2>
+        </div>
+        
+      <div class="gifp">
+       <img class="gif1" src="/Imagenes/Gif1.gif" alt="Gif representativo">     <img class="gif2" src="/Imagenes/Gif2.gif" alt="Gif representativo">     <img class="gif3" src="/Imagenes/Gif3.gif" alt="Gif representativo">
+      </div>  
+
+        <h2 class="titulo2"> Preguntas frecuentes</h2>
+     
+        <button class="dudauno">No funciona la pagina. (No cargan las imagenes, no carga la pagina, etc...)</button>
+        <div class="dudaunodentro">
+          <p>Recarga la pagina. Esto puede suceder porque tenga mala señal o la pagina no funciona bien.</p>
+        </div>
+        
+        <button class="dudauno">La página va muy lenta.</button>
+        <div class="dudaunodentro">
+          <p>Cierra otras pestañas y aplicaciones abiertas y si no funciona puede que tengas que actualizar tu navegador a la última versión.</p>
+        </div>
+
+        <button class="dudauno">La página se ve distorsionada.</button>
+        <div class="dudaunodentro">
+          <p>Actualiza la página (presiona F5 o Ctrl+R) o puede que tengas que ajustar el zoom de tu navegador (Ctrl + o Ctrl -).</p>
+        </div>
+
+        <button class="dudauno">Las imágenes no cargan.</button>
+        <div class="dudaunodentro">
+          <p>Verifica tu conexión a internet o borra la caché del navegador.</p>
+        </div>
+        
+        <button class="dudauno">La página muestra un error 404, ¿qué debo de hacer?</button>
+        <div class="dudaunodentro">
+          <p>Verifica que hayas escrito correctamente la dirección URL.</p>
+        </div>
+
+        <button class="dudauno">¿Por qué no puedo hacer clic en algunos botones o enlaces?</button>
+        <div class="dudaunodentro">
+          <p>Desactiva temporalmente las extensiones del navegador.</p>
+        </div>
+
+        <button class="dudauno">Otros problemas...</button>
+        <div class="dudaunodentro">
+          <p>Intenta refrescar o reiniciar el navegador.</p>
+        </div>
+
+     <div class="piedepaguina">
+      <hr class="pliniea">
+      <p class="piedepaguinatxt">Si entras a esta página, aceptas las políticas y términos de privacidad. Todos los derechos reservados. Todas las marcas registradas pertenecen a <span class="Stltxt">Steelwall</span> ©. Redes sociales: | Instagram <img class="redes" src="/Imagenes/instagram.png" alt=" "></img> | Github <img class="redes" src="/Imagenes/github.png" alt=" "></img> | Twitter <img class="redes" src="/Imagenes/twitter.png" alt=" "></img> |</p>
+      <p class="piedepaguinatxt">Si deseas ponerte en contacto con nosotros, puedes hacerlo de las siguientes maneras: | <span class="contac">Correo: Steelwall@empresa.es</span> | <span class="contac">Teléfono: 633 45 32 08</span> | <span class="contac">Dirección: Av. d'Eduard Maristany, 59, 08930 Sant Adrià de Besòs, Barcelona</span> |</p>
+      <hr class="sliniea">
+     </div>
+
+         <script>
+            var coll = document.getElementsByClassName("dudauno");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dudaunodentro = this.nextElementSibling;
+                if (dudaunodentro.style.display === "block") {
+                  dudaunodentro.style.display = "none";
+                } else {
+                  dudaunodentro.style.display = "block";
+                }
+              });
+            }
+            </script>
+
+    </body>
+</html>      <div>
+        <nav >   	
+             <ul class="menu">
+                <a href="/Pagina principal/pagina_principal.html">                    
+                  <img class="logo" src="/Imagenes/steelwall.png" alt="Escudo basado en la ciberseguridad.">
+                </a>
+                 <li><a href="/Pagina principal/pagina_principal.html">Inicio</a></li>
+                  <li><a href="/Pagina de software/pagina_de_software.html">Software</a></li>
+                 <li><a href="/Pagina de sobre nosotros/pagina_de_sobre_nosotros.html">Sobre nosotros</a></li>
+                 <li><a href="/Pagina de soporte/pagina_soporte.html">Soporte</a></li> 
+             </ul>
+       </nav>
+       </div>
+
+        <div class="titulos">
+        <h1 class="titulo1"> Bienvenidos al soporte de <div class="tit">Steelwall</div> </h1>
+        <h2 class="titulo3"> Aqui encontraras las soluciones a tus problemas</h2>
+        </div>
+        
+      <div class="gifp">
+       <img class="gif1" src="/Imagenes/Gif1.gif" alt="Gif representativo">     <img class="gif2" src="/Imagenes/Gif2.gif" alt="Gif representativo">     <img class="gif3" src="/Imagenes/Gif3.gif" alt="Gif representativo">
+      </div>  
+
+        <h2 class="titulo2"> Preguntas frecuentes</h2>
+     
+        <button class="dudauno">No funciona la pagina. (No cargan las imagenes, no carga la pagina, etc...)</button>
+        <div class="dudaunodentro">
+          <p>Recarga la pagina. Esto puede suceder porque tenga mala señal o la pagina no funciona bien.</p>
+        </div>
+        
+        <button class="dudauno">La página va muy lenta.</button>
+        <div class="dudaunodentro">
+          <p>Cierra otras pestañas y aplicaciones abiertas y si no funciona puede que tengas que actualizar tu navegador a la última versión.</p>
+        </div>
+
+        <button class="dudauno">La página se ve distorsionada.</button>
+        <div class="dudaunodentro">
+          <p>Actualiza la página (presiona F5 o Ctrl+R) o puede que tengas que ajustar el zoom de tu navegador (Ctrl + o Ctrl -).</p>
+        </div>
+
+        <button class="dudauno">Las imágenes no cargan.</button>
+        <div class="dudaunodentro">
+          <p>Verifica tu conexión a internet o borra la caché del navegador.</p>
+        </div>
+        
+        <button class="dudauno">La página muestra un error 404, ¿qué debo de hacer?</button>
+        <div class="dudaunodentro">
+          <p>Verifica que hayas escrito correctamente la dirección URL.</p>
+        </div>
+
+        <button class="dudauno">¿Por qué no puedo hacer clic en algunos botones o enlaces?</button>
+        <div class="dudaunodentro">
+          <p>Desactiva temporalmente las extensiones del navegador.</p>
+        </div>
+
+        <button class="dudauno">Otros problemas...</button>
+        <div class="dudaunodentro">
+          <p>Intenta refrescar o reiniciar el navegador.</p>
+        </div>
+
+     <div class="piedepaguina">
+      <hr class="pliniea">
+      <p class="piedepaguinatxt">Si entras a esta página, aceptas las políticas y términos de privacidad. Todos los derechos reservados. Todas las marcas registradas pertenecen a <span class="Stltxt">Steelwall</span> ©. Redes sociales: | Instagram <img class="redes" src="/Imagenes/instagram.png" alt=" "></img> | Github <img class="redes" src="/Imagenes/github.png" alt=" "></img> | Twitter <img class="redes" src="/Imagenes/twitter.png" alt=" "></img> |</p>
+      <p class="piedepaguinatxt">Si deseas ponerte en contacto con nosotros, puedes hacerlo de las siguientes maneras: | <span class="contac">Correo: Steelwall@empresa.es</span> | <span class="contac">Teléfono: 633 45 32 08</span> | <span class="contac">Dirección: Av. d'Eduard Maristany, 59, 08930 Sant Adrià de Besòs, Barcelona</span> |</p>
+      <hr class="sliniea">
+     </div>
+
+         <script>
+            var coll = document.getElementsByClassName("dudauno");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dudaunodentro = this.nextElementSibling;
+                if (dudaunodentro.style.display === "block") {
+                  dudaunodentro.style.display = "none";
+                } else {
+                  dudaunodentro.style.display = "block";
+                }
+              });
+            }
+            </script>
+
+    </body>
 </html>
