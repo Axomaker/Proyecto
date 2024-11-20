@@ -217,3 +217,15 @@ button {
   a:hover {
     font-size: 150%;
   }
+
+  /* Menú */
+.nav-link {
+  color: #323232;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 110%;
+}
+  
+.nav-link:hover {
+  font-weight: 600; /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
