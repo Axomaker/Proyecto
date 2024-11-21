@@ -17,3 +17,5 @@ pp   =  Pagina principal
 psn  =  Pagina sobre nosotros
 
 vsc  =  Visual Studio Code
+
+pdcdc = Pagina de configuracion de componentes
